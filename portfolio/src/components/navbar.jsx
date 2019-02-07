@@ -7,13 +7,12 @@ const NavBar = () => {
 
     {/* will link to the about section in an auto scroll */}
     <Navbar.Brand href="#home">
-      Jared Spears 
+      <h1>Jared Spears</h1>
     </Navbar.Brand>
-
+      <hr/>
       {/* not perfect want avitar on the right side */}
-      <container className='justify-content-right'>
         <Avitar/>
-      </container> 
+      
        
   </Navbar>
    );

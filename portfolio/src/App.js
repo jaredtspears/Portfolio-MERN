@@ -6,6 +6,7 @@ import About from './components/about';
 // import Container from './components/container';
 import PortfolioCardGroup from './components/portfolioContent/portfolioCardGroup';
 // import PortfolioContainer from './components/portfolioContent/portfolioContainer';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
@@ -24,7 +25,7 @@ class App extends Component {
     {/* </Container> */}
     </div>
 
-    {/* <Footer/> */}
+    <Footer/>
       </div>
     );
   }
