@@ -13,7 +13,6 @@ const NavBar = () => {
       {/* not perfect want avitar on the right side */}
         <Avitar/>
       
-       
   </Navbar>
    );
 }
